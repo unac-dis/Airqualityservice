@@ -71,7 +71,7 @@ public class AirQualityController {
 			return "Excelente";
 		else if (co2 >= 50 && co2 < 100)
 			return "Bueno";
-		else if (co2 >= 100 && co2 < 120)
+		else if (co2 >= 100 && co2 < 150)
 			return "Malo";
 		else 
 			return "Pesimo";
