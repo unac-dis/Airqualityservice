@@ -1,12 +1,10 @@
 package hello;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
 
 import hello.Sensor;
 
-// This will be AUTO IMPLEMENTED by Spring into a Bean called userRepository
-// CRUD refers Create, Read, Update, Delete
-
-public interface SensorRepository extends CrudRepository<Sensor, Integer> {
+public interface SensorRepository extends PagingAndSortingRepository<Sensor, Integer> {
+	
 
 }
